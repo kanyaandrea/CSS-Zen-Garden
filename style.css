@@ -1,0 +1,142 @@
+/*body, p, h1, h2, h3, footer
+#zen-intro, #zen-summary, #zen-preamble, #design-selection
+font-family, color, background-color, text-align
+padding, margin, width, height, top, left
+display, position*/
+
+html { 
+    background: url(images/fog.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+header {
+    background-color: #777;
+}
+
+body{
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+	}
+	
+p {
+    text-align: justify;
+    padding: 0px 20px 0px;
+}
+
+a:link {
+    color:#2676d0;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#488edd;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#6392c7;
+    text-decoration: underline;
+}
+
+a:active {
+    color:#92abc7;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+    padding: 20px 2px 0px
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#bfbfbf;
+    text-shadow: 0.3px 0.3px 0.6px #000000;
+    padding: 0px 5px 20px;
+}
+
+h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 0.3px 0.3px 0.2px #000000;
+    padding: 5px 0px 5px;
+}
+
+footer {
+    background-color: #666;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 0px 20px
+}
+
+
+#zen-supporting {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+#zen-intro p {
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+}
+
+#zen-summary p {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+#zen-preamble h3 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color:#222222;
+    text-shadow: 0.3px 0.3px 0.2px #000000;
+    padding: 5px 0px 5px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:#222222;
+    text-shadow: 0.3px 0.3px 0.2px #000000;
+    padding: 5px 0px 5px;
+    border: solid 1px black;
+    margin: 50px;
+    background-color: #666
+}
+
+
+.sidebar {
+    float: right;
+    width: 40%;
+    padding-left: 10px;
+    padding-top: 0px;
+    border: solid black 1px;
+    background-color: whitesmoke;
+    margin: 15px;
+}
